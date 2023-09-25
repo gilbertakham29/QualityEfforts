@@ -1,0 +1,65 @@
+<template>
+    <div class="bg-[#299646] py-1">
+        <h2 class="text-center text-white text-3xl md:text-5xl font-bold">
+            Our typical engagement process
+        </h2>
+        <div class="w-11/12 mx-auto flex md:flex-row flex-col items-center">
+            <img class="w-56 md:hidden" src="https://save-effort.netlify.app/_nuxt/leady.ce97e37a.webp" alt="human"/>
+            <img class="hidden md:block" src="https://save-effort.netlify.app/_nuxt/leady.ce97e37a.webp" alt="human"/>
+            <div class="flex md:flex-row flex-col items-center gap-5">
+                <div>
+                    <img src="https://save-effort.netlify.app/_nuxt/pc.9e595b86.webp" alt="analysis"/>
+                    <h4 class="text-2xl md:text-4xl font-semibold mt-2 text-white text-center">
+                        Analysis
+                    </h4>
+                </div>
+                <img class="w-16 md:mx-5 transform rotate-90 md:rotate-0" src="data:image/webp;base64,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" alt="next"/>
+                <div>
+                    <img src="https://save-effort.netlify.app/_nuxt/board.3df49a9c.webp" alt="suggestion"/>
+                    <h4 class="text-2xl md:text-4xl font-semibold mt-2 text-white ">
+                        Suggestion & Proposal
+                    </h4>
+                </div>
+                <img class="w-16 md:mx-5 transform rotate-90 md:rotate-0" src="data:image/webp;base64,UklGRjoLAABXRUJQVlA4WAoAAAAQAAAAegAAeAAAQUxQSGoDAAABoAQAkCFJirVt27Zt27Zt2z7btm3bY1vdw8b0NuKUWVmZEYdfREwA/E9arXmvmQdue/CRR5947snbz+ycO6hVzRIMlGg2btsjv6DCQMxbR4c1oKzckHedXrTT++vFLjSVG/RABmoYzLyrOzk1V3yJ2hZ/sawWJS2upKHe8VfrUVHnbBHq77rRgILK2zPQzLxdNYwb8jOamzTFrLYfONBk95tNDZrrQNOTJpvS7GU3mu+5t6IRo5KQxp+bGbDag1Sm9NGt7LNIaMECvSq8jKQ69+tU+nUk1nNQn1KvIbmuY9q8jQR7zmryIJLsXqbF7Ui0c4gGmz1UoaO1bW0dSPcPpW2qHIOU32/TQ0i6d74tMzy0YUZTG2rEIfVv2nA7kn9zqbJuSfRhXDVV7yKHtyqa5GUhs42aL5HHF5QsQiadnVX8xAXep2Aysple39pLfOAJS02yGEktbeU0MhpaaiWBE/zaQlc/K64ucteR1/1yccx8JtWwiJm8BjJz/czgfJn7kNv7Zb5k5yeZFHZyJBr72fHUE01HdkPDRAf5wQ2iKwxdFb3I0BOiTxh6WRTB0PuiLIa+ETkZChPlMxQrymYoTpTOWTJD0aI4hsJEYQz9KPqGoa9ELzH0vugqQ0+I9jJ0UrSSofGiXsXsuBqLamax4wDJH9hJkHmKnSdktrKzQqajn5lQa5kyacxEg/SrzDwuN9bPSmClXPlMVpJLyMGdrDwHFrsHGXG1tAJfMPIBWN4YYMM3xlr5DDa+B4X3cXFzo4pamUxEllAB530s5M8DpVWiWfgOFK8qYCC3hyr4kD7fraC8STZ5KZXUweEC4pyTwc7nfKQF7wdba8WFKAurYg/0iSYspyvYvTmLLM8SsP+wgyjXVdDx+QBJocdBy0pv51P0M2haK5we/7dldYH64UXUfFgO9K3xYSEt74DW5R50EBJ4GnS/VECG/yTovzYuSEP2fDCx5W8UBCPagpkV7yk0ruCu0mDspHTDwgeAyWUfzzEo/0Z5MLzdu25D8h7rCASOjwga4Pp8EBA58UOfZp5PBgKh3e9MDemTdXs3ILbMtM8KtfB8uqQSUFxx3Tc5flv8OT9trgV0Vxt35rmfHS4FXlfYi2eGVwb6y3XY9MDLXya7g38JFcd+/NTu/rWA15Jl/loS/msFVlA4IKoHAABQKgCdASp7AHkAPpE+mUglo6KhLRWMALASCWwAxYoa/xXXPcc8Z+WvtrVt+zfh7osZ38+nx39k/OnUR8wT9P+kb5ivOq9MH+O9QD+o/8DrLPQA8t392PhG/uH/XwWvexiL9prsnlTsHuCc8KczTncfL/9D7BP8m/t3pR+wP9vPYX/Z5uJ1P4DgNfKX05FUymMkdpEs8rsL5FL+uNJJBnXM3CTtUaAZ9YYadi9Ve8RQHnv6zE5CgQgG3gPZgbiIqE1uAWCgckAoSx4JiGcnlg1Hi4ZDjSMYqgk8UOpnAfQHUWoyy0G14OvhFF/U7o9kRoC7wXZmuDGQ7m+bq2LfXyRiuZbZ6SCaNq4v7rLGaeZ+aNF/cTez3IwupD68JusXOuWyPqFy224kMEfx+AXcq8QTz3gl8K51zDKg79YWJXz92cDxWZjm2xUD88b8U2WXEYfLP/YS+6ygSTzFQAD+/bTo8f2JPscIygLQuhvqyGwvfhfV/EH8hGF7IjtGtpgUXwrlobiZV5uj7mqfNR0aPcyk2Nz/IfDvsNEVgoyx0Fbka++V9EmBJ6jszZx4eMhi2gTyZBu6pV4zzU46O+R8hlHY3Mkj7bMgMtC0qbOLgSMd6cD0+G7SD+bVQ/T6rfVL2C7E9U86NKhZ3PfzH/Wos5mw15BW8k8CMepv4qAIiwH/esU/bzZaFk4XL4LvFo8K0WFD3c/Ljqms6f/R5HJfzBIV8HcCxMfpoVBE/cEVR4wo9xgLe8CrjrfNhfdAn3CTGUZo+sO1IaSimvZnosu4Bz+pJQlT4bxB3jWave5JNjLneoNUFGCmctP+CDLJ/mDNvIL5g6LDOQOdxR2kXaNNKL4BP0YZYFD31pAzgr7x2KyJjjarkT+A0tp+y9gozfNRbnQE//Pfxdk1Alqy7tFZ8+lfOxLL6+ufJE6suhsmp3SNiwCRa5uVS0lEjWyCa5ndQRsfQTfZj0cw5nmyxuMBncZyPmYHQh6gSv7MRBe0X2xF8XB2KvuhOr4uNAfWIAuTIQ75M+tjYF76UyBQSbjF9fxziQ5icl89PcuL4y42D88VnV3uEpMqbW83vORb+L834IVQmdTlF0RSjTj5y3985HkSbYt0y32fV23/X/L5YU+7maPtkWsn+yQrtZjvyVO3HVBkmDTqdPsv6kVgwK1MiQuklwRMosgb6os3jKkoZPlzH8Gpi8aNYbXv2oRlNFmmpBk5cO+rbmScEPBjTtuMlnIHkt/rJNmK5WMm/R7zRhuMn9XsX+3WTeDqN+3HYAzRLQC90acp2PNjqCpwWK+40989vHUAxw7WPwJeiMuZy2UweLvOEU5Mp+ZlKQjCj7YL1/FBPe139VtTrrc7NAw0ITyQaC4hx2eTeumnx8o6XcV0gxztXebJz/ShccQ/cC1u5W6oddV2hmJTnb4MqVPhj9xbZ5VZG6+lL9NtSddbWlJKGWiGWSPh/uzrinBzFUjTwAvyE5ptgF5ivurdRPzE5jyYi5AM2w0MhMfW9GkbYtEmWlthBhuRsiWI7rq824wqaejTiExByVkOaY8DsENt90eRRqN5N1XNejLwctREASfGuKrk1fINjvWz7m0Uzak91SLQ1Z0D9LX5xORmLZoBJh53B1v4KV3PUMBGNtO2FXhc88iaAVyiGACOzjdUR0R1Y2Mr2Zkee4rOyZSCI9OkJthsCoJGxVxRU/W87WG6TYSKgsPh9uE9Y7n5KDp/xWcXdc2TW+XruNKRGilHFeV3bQwB5N2fdgr/N9IRfDOBQjCVeTz0Wq8M0VV4Bgwc2PB6l+BYZTo5AxoNItWaMeX1OjJNEWqT2brvsG9LGpHh8m6yB2578IM1G89elB9GRirB2sNbG8Ps4P+f/H/zXygWmcNcVMeYkPdEYLMGkYxtf53r5zmMA7Ft1IT/6cClCKw6cpfKMQuCYITtwaSTuTBw/UTOM9ObsPTG6ULKMY1sSB1ZlZcWXeT8Jck+pY5RSNi/LUo8BjBU8hB3oSx9hnzNS7M83xjOZp+6u+/lDkTZOZF1nFYewbP6dgQe+K1BwFu78wwy9Lz17ozn5fxZux/5dN4jewC0DARnYA2nmDHcffvWuCeW0A7Bpqnql1JeNoKfo1uyyFvxtLQqcHNibGTTQqPJrJpCviYhZaZyIbpMy5LnRlSvPJM8SGSXoVFGYJHASjksf+yHZBomjW1Dn/Vc6a+X0J28O3dxpldG4Eh7rk/dYc4fv+ly1Qe+4M6uf+bKt3S65U2uPcILCUv/xPeQznQ4dVypxZOJ1ZIy/I/KpQDEqP0Q7oY8wIGhGZwPaP7ZMbgYt6oiJ47qVdr9doR8FulGwfmZnwibVN3grySsWZ3ZUD5knetNAeJQYowh5NF/+J8a9fUDmGgwxdlFWwDQB4i53/NRsCAA3/6N5VMEAABE93Hg5dLp3b1ckNM+HFa0rMEhKPzQaJKxuIJdo26OjD+e9aTRP11HhU2gH/HH+YsibL8dp3o8u6iieOaN7v5IqNQ/hDh9e8iNvM+gyfTuDbL1+KTut4FfLh910VFYsooPTuwryhkVggvlGSYTEmgxlFfH/IHPkxLNLqLMNFQ925Irrex/+XPpCaZrsbO6jmqgjfXMyPTINIgAAAA=" alt="next"/>
+                <div>
+                    <img src="https://save-effort.netlify.app/_nuxt/right.99cac913.svg" alt="automation"/>
+                    <h4 class="text-2xl md:text-4xl font-semibold mt-2 text-white text-center">
+                        Automation
+                    </h4>
+                </div>
+        </div>
+        </div>
+       
+    </div>
+    <section class="my-20">
+        <div class="flex flex-col items-center max-w-3xl mx-auto">
+            <h2 class="px-4 text-3xl font-semibold text-center sm:text-4xl">
+                Comprehensive Expertise
+            </h2>
+            <p class="max-w-xl px-4 mt-5 font-medium text-center text-gray-500">
+                We possess extensive experience in working with major CRMs, Finance systems, Databases, SaaS applications, UI/UX, Marketing applications, and other modern systems.
+            </p>
+        </div>
+        <picture>
+            <source media="(max-width:648px)" srcset="https://www.qualyval.com/images/banner.webp">
+            <source media="(max-width:1024px)" srcset="https://www.qualyval.com/images/banner.webp">
+            <img src="https://www.qualyval.com/images/banner.webp" alt="banner-image" class="w-full my-5">
+        </picture>
+    </section>
+
+    <section class="flex flex-col items-center w-full gap-5 py-16 text-white bg-[#299646]">
+        <img src="https://www.qualyval.com/images/logo-white.svg" alt="white-logo" class="w-24 sm:w-28 lg:w-36">
+        <h2 class="max-w-5xl text-2xl font-semibold text-center sm:text-3xl">
+            AI and Automation are transformative force that will reshape the world and revolutionize businesses; thus, adopting it early is highly advisable.!
+        </h2>
+    </section>
+
+</template>
+
+<script setup>
+
+</script>
+
+<style scoped>
+
+</style>
