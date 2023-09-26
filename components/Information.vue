@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-[#299646] py-1">
+    <div class="bg-[#000837] py-1">
         <h2 class="text-center text-white text-3xl md:text-5xl font-bold">
             Our typical engagement process
         </h2>
@@ -31,28 +31,7 @@
         </div>
        
     </div>
-    <section class="my-20">
-        <div class="flex flex-col items-center max-w-3xl mx-auto">
-            <h2 class="px-4 text-3xl font-semibold text-center sm:text-4xl">
-                Comprehensive Expertise
-            </h2>
-            <p class="max-w-xl px-4 mt-5 font-medium text-center text-gray-500">
-                We possess extensive experience in working with major CRMs, Finance systems, Databases, SaaS applications, UI/UX, Marketing applications, and other modern systems.
-            </p>
-        </div>
-        <picture>
-            <source media="(max-width:648px)" srcset="https://www.qualyval.com/images/banner.webp">
-            <source media="(max-width:1024px)" srcset="https://www.qualyval.com/images/banner.webp">
-            <img src="https://www.qualyval.com/images/banner.webp" alt="banner-image" class="w-full my-5">
-        </picture>
-    </section>
-
-    <section class="flex flex-col items-center w-full gap-5 py-16 text-white bg-[#299646]">
-        <img src="https://www.qualyval.com/images/logo-white.svg" alt="white-logo" class="w-24 sm:w-28 lg:w-36">
-        <h2 class="max-w-5xl text-2xl font-semibold text-center sm:text-3xl">
-            AI and Automation are transformative force that will reshape the world and revolutionize businesses; thus, adopting it early is highly advisable.!
-        </h2>
-    </section>
+    
 
 </template>
 
