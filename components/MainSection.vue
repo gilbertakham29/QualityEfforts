@@ -1,9 +1,12 @@
 <template>
-    <div class="bg-[#000837] py-1">
-        <h2 class="text-center text-3xl md:text-6xl font-bold text-[#FAC300] my-8 md:my-16 pt-10">
+    <div class="bg-[#000837] py-1 grid grid-cols-2">
+       
+        <div class="grid grid-cols-1 w-11/12 md:w-10/12 border-r-2 border-r-white mx-auto text-white text-xl md:text-3xl md:gap-x-16 gap-y-10 mt-10  mb-20 md:mb-52">
+            <div class="col-span-12 md:col-span-6 flex items-center">
+                <h2 class=" text-center text-3xl md:text-6xl font-bold text-[#FAC300] my-8 md:my-16 pt-10">
             Our Experience
         </h2>
-        <div class="grid grid-cols-12 w-11/12 md:w-10/12 mx-auto text-white text-xl md:text-3xl md:gap-x-16 gap-y-10 mb-20 md:mb-52">
+            </div>
             <div class="col-span-12 md:col-span-6 flex items-center">
                 <img src="https://save-effort.netlify.app/_nuxt/p1.083a4428.webp" alt="settings"/>
                 <p class="ml-2">200+ Processes automated</p>
@@ -21,12 +24,13 @@
                 <p class="ml-2">50+ Clients</p>
             </div>
         </div>
-    </div>
-    <div class="flex items-center bg-[#000837]">
+        <div class="flex items-center bg-[#000837]">
         <button type="button" data-modal-target="authentication-modal" data-modal-toggle="authentication-modal" class="flex items-center w-auto px-8 py-3 mx-auto font-medium text-center text-white rounded-lg sm:mt-5 lg:mt-5 sm:ml-auto lg:ml-auto sm:mb-10 lg:mb-10 bg-[#FAC300] sm:w-fit hover:bg-yellow-400 focus:ring-4 focus:outline-none">
         Discover More
     </button>
     </div>
+    </div>
+  
    
 
     <div id="authentication-modal" tabindex="-1" aria-hidden="true" class="fixed left-0 right-0 z-50 w-full max-h-full p-4 overflow-x-hidden overflow-y-auto bg-gray-100 top-[12.5%] md:top-0 md:inset-0 bg-opacity-20 justify-center items-center hidden">
